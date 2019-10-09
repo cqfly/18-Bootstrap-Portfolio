@@ -1,0 +1,196 @@
+/* text */
+h1,h2,h3,h4,h5,h6{
+    font-family: lato, sans-serif;
+}
+/*nav------------------*/
+.customNav{
+   
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        z-index: 10;
+     
+}
+.jumboground{
+  margin:0;
+}
+
+h3{
+  color: red;
+  font-weight: 200;
+}
+
+
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 10% !important;
+  }
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+    
+  }
+
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  
+.customNav a {
+    color: white !important;
+  }
+
+
+
+
+
+
+
+
+
+
+/* jumbottron----------------------*/
+
+.jumboground{
+    background-color: black;
+    border-radius: 0;
+    
+  }
+
+  .row padding{
+    margin-left: 100px;
+  }
+
+  .jumbo1{
+    display: inline-block;
+     
+    color:white;
+    padding: 5%;
+     
+     text-align: left;
+  }
+
+  h1{
+    margin-top:2rem;
+  }
+
+  .img-fluid{
+       right:0 !important;
+      display: inline-block;
+      margin: 5rem auto 0 1rem;
+     
+    
+     }
+ 
+  .btn{
+    border-radius: 23px;
+  
+    margin: 2rem 2rem 2rem 8rem;
+    
+  }
+/* Cards----------------------*/
+.project{
+  background: #2e2e2e;
+}
+
+
+.customRow{
+  margin-bottom:0rem;
+}
+
+.card-body a {
+  background-color: red;
+  border:none;
+  margin-top:4rem;
+}
+
+p{
+  color: white;
+}
+
+
+h5{
+  color:white;
+  margin-top:4rem;
+}
+
+.card{
+      margin: auto;
+}
+
+.imgPro {
+      float: left;
+      margin: 2.5rem auto;
+}
+
+
+.card-body{
+  float:right;
+}
+
+.row:first-child{ 
+  margin-top:0 rem;
+
+}
+
+
+
+.container-fluid{
+   margin-top: 6rem auto;
+}
+
+/* footer----------------------*/
+.social{
+  height:10rem;
+  
+}
+
+.social a{
+  background-color: #ff0000;
+  color:white;
+  margin: 4rem 3rem ;
+  
+  
+}
+
+ .about{
+   background-color: black;
+ }
+
+ .social btn{
+   margin:0;
+ }
+
+
+
+
+@media(max-with: 992px) {
+
+}
+
+@media(max-with: 768px) {
+    
+}
+
+@media(max-with: 576px) {
+
+
+  h5{
+    
+    margin:0;
+  }
+
+  .card-title {
+    margin:0 ;
+  }
+
+  .imgPro {
+    float: left;
+    margin: 1rem auto;
+}
+
+
+
+}
