@@ -20,6 +20,9 @@ h3{
   font-weight: 200;
 }
 
+.d-inline-block{
+  margin-left: 4rem;
+}
 
 
 .navbar-nav {
@@ -56,6 +59,8 @@ h3{
 .jumboground{
     background-color: black;
     border-radius: 0;
+    text-align: center;
+    display:inline-block;
     
   }
 
@@ -83,11 +88,14 @@ h3{
      
     
      }
- 
+ .hire{
+   left:4rem;
+ }
   .btn{
+  
     border-radius: 23px;
   
-    margin: 2rem 2rem 2rem 8rem;
+    margin: 4rem 2rem 2rem 8rem;
     
   }
 /* Cards----------------------*/
@@ -96,38 +104,33 @@ h3{
 }
 
 
-.customRow{
-  margin-bottom:0rem;
-}
-
-.card-body a {
-  background-color: red;
-  border:none;
-  margin-top:4rem;
-}
-
-p{
-  color: white;
-}
 
 
 h5{
   color:white;
-  margin-top:4rem;
+  margin-top:0rem;
+}
+
+P{
+  color:white;
 }
 
 .card{
       margin: auto;
+      margin-top:0px;
+
 }
 
-.imgPro {
-      float: left;
-      margin: 2.5rem auto;
+.btn{
+  margin:0;
 }
+
 
 
 .card-body{
   float:right;
+  margin-top: 3.5rem;
+  margin-left:3.5rem;
 }
 
 .row:first-child{ 
@@ -137,13 +140,39 @@ h5{
 
 
 
-.container-fluid{
-   margin-top: 6rem auto;
+
+
+.card:first-child {
+  border-top:0px;
+}
+
+
+.card{
+  background-color:#2e2e2e;
+  border-radius: 0px;
+  border-top:1px solid white;
+  border-left:0;
+  border-right:0;
+  border-bottom: 0;
+  padding: 60px 0 60px 0;
+  }
+
+.card :first-child {
+  border-top:0;
+}
+.card-body a {
+  background-color: red;
+  border:0;
+}  
+
+.no-gutters{
+  margin:3rem;
 }
 
 /* footer----------------------*/
 .social{
   height:10rem;
+  text-align: center;
   
 }
 
@@ -190,6 +219,14 @@ h5{
     float: left;
     margin: 1rem auto;
 }
+   .col-md-4 col-sm-12{
+  float:right;
+  margin-top: 0rem;
+}
+   .card-body{
+     margin-top: 0 !important;
+     padding:0;
+   }
 
 
 
